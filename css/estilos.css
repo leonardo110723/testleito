@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.cabecero{
+    height: 30px;
+    width: 100%;
+    background-color: #002145;
+    display: flex;
+    align-items: center;
+}
+.titulo1{
+    width: 100%;
+    color: #FFFFFF;
+    font-family: "Lato";
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 12px;
+    padding-left: 15px;
+    text-align: center;
+}
+.cabecero a{
+    width: 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 36px;
+}
+.barra_menu{
+    height: 125px;
+    width: 100%;
+    /* opacity: 0.45; */
+    background-color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    padding: 0px 89px 9px 162px;
+    justify-content: space-between;
+    list-style: none;
+}
+.lista{
+    display: flex;
+    height: 125px;
+    align-items: flex-end;
+}
+.spark-equestrian-academy-final {
+    height: 148px;
+    width: 161px;
+    box-shadow: 0 10px 20px 0 rgba(255,255,255,0.18);
+} 
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.home{
+    font-family: "lato Black";
+}
